@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+
+}
+html,body{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+.container{
+    
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
+.menu{
+    padding:2px;
+    color:white;
+    background-color: black;
+}
+.title{
+    margin-left:10px;
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+.box-image{
+    text-align: center;
+    padding:100px;
+    color:white;
+    width:100%;
+    height:400px;
+    background-image:url('../img/bg-box.jpg');
+    background-size: cover;
+    background-position: bottom;
+    
+
+}
+.content{
+    width:100%;
+    padding:10px;
+    margin:0;
+    background-color: #f3f3f3;
+    
+
+}
+.content_text{
+    width:100%;
+    text-align:center;
+
+}
+
+.box{
+    /* border-radius: 10px; bordure inclinee */
+    /* div non obligatoire  */
+    text-align: center;
+    padding:15px;
+    width:30%;
+    height:200px;
+    background-color:#ecf0f1;
+    margin:1.2%;
+    float:left;
+}
+.box>img{
+    width:80px;
+    
+    
+}
